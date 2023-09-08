@@ -12,6 +12,7 @@
 int main(void)
 {
 	int y = 0;
+	int x;
 
 	while (y <= 9)
 	{
@@ -19,7 +20,7 @@ int main(void)
 
 		while (x <= 99)
 		{
-			if (y != x)
+			if (x != y)
 			{
 		 		putchar((y / 10) + 48);
 		 		putchar((y % 10) + 48);
@@ -40,4 +41,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
