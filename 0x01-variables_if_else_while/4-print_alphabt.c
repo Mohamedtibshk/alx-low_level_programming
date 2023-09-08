@@ -19,7 +19,7 @@ int main(void)
 		putchar(y);
 		y++;
 	}
-	puchar ('\n');
+	puchar('\n');
 
 	return (0);
 }

@@ -7,8 +7,9 @@
  *
  * Description: shows the status of the number according to it's last digit
  *
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n, y;
@@ -22,6 +23,6 @@ int main(void)
 	else if (y == 0)
 		printf("last digit of %i is %i and is 0\n", n, y);
 	else if (y < 6 && y!=0)
-		printf("last digit of %i is %i and is less of 6 and not 0\n", n, y);
+		printf("last digit of %i is %i and is less than 6 and not 0\n", n, y);
 	return (0);
 }

@@ -3,7 +3,7 @@
 /**
  * main - printing single digits using putchar only
  *
- * Description: prints all single digits from the 
+ * Description: prints all single digits from the
  *              base 10 starting from 0
  *
  * Return: Always 0 (Success)
@@ -13,7 +13,7 @@ int main(void)
 {
 	int y = 0;
 
-	while (y <= 0)
+	while (y <= 9)
 	{
 		putchar(y + '0');
 		y++;
@@ -21,4 +21,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}

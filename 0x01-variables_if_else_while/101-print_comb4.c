@@ -27,7 +27,7 @@ int main(void)
 				{
 		 			putchar(y + 48);
 					putchar(x + 48);
-					putchar(z + 48)
+					putchar(z + 48);
 
 					if (y + x + z != 24)
 					{

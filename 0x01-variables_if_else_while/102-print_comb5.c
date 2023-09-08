@@ -23,7 +23,7 @@ int main(void)
 			if (y != x)
 			{
 		 		putchar((y / 10) + 48);
-		 		putchar(y % 10) + 48);
+		 		putchar((y % 10) + 48);
 				putchar(' ');
 				putchar((x / 10) + 48);
 				putchar((x % 10) + 48);

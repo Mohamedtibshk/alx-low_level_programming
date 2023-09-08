@@ -3,7 +3,7 @@
 /**
  * main - printing number of base 16 using putchar only
  *
- * Description: prints all single digits from the 
+ * Description: prints all single digits from the
  *              base 16 starting from 0
  *
  * Return: Always 0 (Success)
@@ -26,4 +26,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
