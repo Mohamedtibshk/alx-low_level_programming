@@ -16,6 +16,7 @@ int main(void)
 	while (y <= 99)
 	{
 		int x = y;
+
 		while (x <= 99)
 		{
 			if (x != y)
