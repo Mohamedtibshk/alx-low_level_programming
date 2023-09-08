@@ -12,17 +12,16 @@
 int main(void)
 {
 	int y = 0;
+	int x = y;
 
-	while (y <= 9)
+	while (y <= 99)
 	{
-		int x = y;
-
 		while (x <= 99)
 		{
 			if (x != y)
 			{
-		 		putchar((y / 10) + 48);
-		 		putchar((y % 10) + 48);
+				putchar((y / 10) + 48);
+				putchar((y % 10) + 48);
 				putchar(' ');
 				putchar((x / 10) + 48);
 				putchar((x % 10) + 48);
@@ -31,7 +30,7 @@ int main(void)
 				{
 					putchar(',');
 					putchar(' ');
-				} 
+				}
 			}
 			x++;
 		}
