@@ -12,7 +12,6 @@
 int main(void)
 {
 	int y = 0;
-	int x;
 
 	while (y <= 9)
 	{
