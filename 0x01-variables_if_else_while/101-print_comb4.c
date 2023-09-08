@@ -23,7 +23,7 @@ int main(void)
 
 			while (z <= 9)
 			{
-				if (y != x && y < x && y != z && y < z)
+				if (y != x && y < x && x != z && x < z)
 				{
 		 			putchar(y + 48);
 					putchar(x + 48);
