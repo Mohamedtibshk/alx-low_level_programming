@@ -1,12 +1,12 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * times_table - function print table
- * Return: void
+ * Return: 0
  */
 void times_table(void)
 {
-	int i, j;
+	int i, j, result;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -14,16 +14,14 @@ void times_table(void)
 	{
 		result = i * j;
 	if (j == 0)
-	{
-	_putchar("%d, ", result);
-	}
+	printf("%d, ", result);
 	else
 	{
-	_putchar("%2d ", result);
-		if (j != 9)
-		_putchar(", ");
-		}
-		_putchar("\n");
+	printf("%2d", result);
+	if (j != 9)
+	printf(", ");
+	}
+	printf("\n");
 	}
 	}
 }
