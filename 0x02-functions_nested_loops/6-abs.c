@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_abs - function to find absolute val
+ *_abs - function to find absolute value of a number
  *@a: function parameter
  *Return: a or -a
  */
