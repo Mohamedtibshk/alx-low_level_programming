@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - rest n to 98
- *@n: pointer to the value to be chaned
+ *@n: pointer to the value to be changed
  * Return: void
  */
 
