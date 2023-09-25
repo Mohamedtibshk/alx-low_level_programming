@@ -4,21 +4,27 @@
  * _strspn - function name
  * @s: parameter 1
  * @accept: parameter 2
- * Return: characters counted
+ * Return: Always 0 at success
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i;
-	int k;
+	unsigned int n = 0;
+	int r;
 
-	for (i = 0; s[i] != accept[k]; k++)
+	while (*s)
 	{
-for (k = 0; s[i] != accept[k]; k++)
+	for (r = 0; accept[r]; r++)
 		{
-		if (accept[k] == '\0')
-			return (i);
+		if (*s == accept[r])
+		{
+			n++;
+		break;
 		}
+	else if (accept[r + 1] == '\0')
+		return (n);
 	}
-	return (0);
-}i
+	s++;
+}
+return (n);
+}
