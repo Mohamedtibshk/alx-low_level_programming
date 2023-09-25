@@ -1,0 +1,1 @@
+more pointers asrrays string
