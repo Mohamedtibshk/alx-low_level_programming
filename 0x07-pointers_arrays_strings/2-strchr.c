@@ -4,18 +4,17 @@
  * _strchr - function name
  * @s: parameter s
  * @c: parameter c
- * Return: c
+ * Return: Always 0 at success
  */
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	int i = 0;
+
+	for (i = 0; s[i] >= '\0'; i++)
 	{
-		if (*s == c)
-			return (s);
-		s++
+		if (s[i] == c)
+		return (&s[i]);
 	}
-	if (*s == c)
-		return (s);
-	return (NULL);
+	return (0);
 }
